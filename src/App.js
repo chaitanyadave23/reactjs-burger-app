@@ -5,14 +5,14 @@ import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 class App extends Component {
   render() {
     return (
-      <div className="App">   
+      <div className="App">
         <Layout>
-          <BurgerBuilder />          
-        </Layout>        
+          <BurgerBuilder />
+        </Layout>
       </div>
     );
   }
-  
+
 }
-  
+
 export default App;
