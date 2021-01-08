@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 import Layout from "./components/Layout/Layout";
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+import BuilControls from './components/Burger/BuildControls/BuildControls'
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout>
           <BurgerBuilder />
+          <BuilControls />
         </Layout>
       </div>
     );
